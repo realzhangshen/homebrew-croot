@@ -1,16 +1,16 @@
 class Croot < Formula
   desc "Lightweight terminal file tree sidebar with vim-style navigation"
   homepage "https://github.com/realzhangshen/croot"
-  version "0.2.3"
+  version "0.2.4"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/realzhangshen/croot/releases/download/v0.2.3/croot-v0.2.3-aarch64-apple-darwin.tar.gz"
-      sha256 "34fb5da88aaa883421f2e182813aa3741c780d9e56dc366849f689004488f344"
+      url "https://github.com/realzhangshen/croot/releases/download/v0.2.4/croot-v0.2.4-aarch64-apple-darwin.tar.gz"
+      sha256 "41a959fabe9d302fc2ddd2138ca21c04fb1ba431dd7c762d22f046b94f00787d"
     else
-      url "https://github.com/realzhangshen/croot/releases/download/v0.2.3/croot-v0.2.3-x86_64-apple-darwin.tar.gz"
-      sha256 "b381efc5f6eeb5643aed95990cd3673d0cc8f34290ddbcfc1726ce6a146804b4"
+      url "https://github.com/realzhangshen/croot/releases/download/v0.2.4/croot-v0.2.4-x86_64-apple-darwin.tar.gz"
+      sha256 "d1ec4653ed2aebf6e51ef62df8d2b41a02dd2cc2d64df0d0f3acbc748f21e580"
     end
   end
 
